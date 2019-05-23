@@ -1,0 +1,37 @@
+
+			<div class = "center">
+				<div class = "center-left">
+					<h> 별자리명소</h>					
+					<dd>	<ul>
+						<li><a href="http://www.astrocamp.net/">연세대학교 어린이 천문대</a></li>
+						<li><a href="http://www.cosmopia.net/">코스모피아</a></li>
+						<li><a href="http://www.astrocafe.co.kr/">양평 중미산 천문대</a></li>
+						<li><a href="http://www.naturestar.co.kr/">자연과 별 천문대</a></li>
+						<li><a href="http://www.nicestar.co.kr/">안성 천문대</a></li>
+						</ul>	
+					</dd>
+				</div>
+				<div class = "center-right">
+					<p> 별자리명소</p>
+					
+					<dt>LIST</dt>
+					<dd><ul>
+						<li><a href="http://www.astrocamp.net/">연세대학교 어린이 천문대</a></li>
+						<li><a href="http://www.cosmopia.net/">코스모피아</a></li>
+						<li><a href="http://www.astrocafe.co.kr/">양평 중미산 천문대</a></li>
+						<li><a href="http://www.naturestar.co.kr/">자연과 별 천문대</a></li>
+						<li><a href="http://www.nicestar.co.kr/">안성 천문대</a></li>
+					</ul>	
+					</dd>
+				</div>
+			</div>
+			<div class = "bottom">
+				<div class = "bottom-left">
+					<div id = "date">
+					</div>
+				</div>
+				<div class = "bottom-right">
+				</div>
+			</div>
+
+		</div>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html >
+	<head>
+ 		
+		<link rel="stylesheet" type="text/css" href="star.css" />
+  		<script src="./swiper.min.js" type="text/javascript"></script>
+		<title> Star </title>
+		<meta name="Developer" content="Kang,Shin,Lee" />
+		<meta name="keywords"
+		 content="web programming, html, css, js, ite, incheon national university" />
+
+   
+
+	</head>
+	<body>
+		<div class = "container">
+			<div class = "top">
+ 				  <!-- Swiper -->
+				<div class="swiper-container">
+				<div class="swiper-wrapper">				
+				<div class="swiper-slide" style = "background-image:url(./image/moon.jpg)">
+				<div class="title" data-swiper-parallax="-300">Blood Moon</div>
+				<div class="subtitle" data-swiper-parallax="-200">KST '2018.01.31' 22:09경 관측 가능</div>
+				<div class="text" data-swiper-parallax="-100">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem justo. Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod. Aliquam hendrerit lorem at elit facilisis rutrum. Ut at ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec, tincidunt ut libero. Aenean feugiat non eros quis feugiat.</p>
+				</div>
+				</div>
+
+      <div class="swiper-slide" style = "background-image:url(./image/galaxy.jpg)">
+        <div class="title" data-swiper-parallax="-300">Slide 2</div>
+        <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
+        <div class="text" data-swiper-parallax="-100">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem justo. Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod. Aliquam hendrerit lorem at elit facilisis rutrum. Ut at ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec, tincidunt ut libero. Aenean feugiat non eros quis feugiat.</p>
+        </div>
+      </div>
+      <div class="swiper-slide" style = "background-image:url(./image/jupiter.jpg)">
+        <div class="title" data-swiper-parallax="-300">Slide 3</div>
+        <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
+        <div class="text" data-swiper-parallax="-100">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem justo. Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod. Aliquam hendrerit lorem at elit facilisis rutrum. Ut at ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec, tincidunt ut libero. Aenean feugiat non eros quis feugiat.</p>
+        </div>
+		</div>
+      </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination swiper-pagination-white"></div>
+    <!-- Add Navigation -->
+    <div class="swiper-button-prev swiper-button-white"></div>
+    <div class="swiper-button-next swiper-button-white"></div>
+  </div>
+</div>
+
+			<div class = "center">
+				<div class = "center-left">
+					<p> 지도 공공데이터<p>					
+					<dd>	
+					api 인증키 수령후 parsing 예정
+					</dd>
+				</div>
+				<div class = "center-right">
+					<p> 기상정보 공공데이터</p>
+			
+					<dd>
+					api 인증키 수령후 parsing 예정
+					</dd>
+				</div>
+			</div>
+			<div class = "bottom">
+				<div class = "bottom-left">
+					<div id = "date">
+					</div>
+				</div>
+				<div class = "bottom-right">
+				</div>
+			</div>
+
+		</div>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      speed: 600,
+      parallax: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+</body>
+</html>
+		
