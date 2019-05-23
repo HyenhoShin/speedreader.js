@@ -1,0 +1,133 @@
+body {
+	word-break:break-all;
+	margin: 0%;
+	background-image: url(./image/moviebg.png);
+	background-size: cover; 
+        }
+
+.banner {
+	text-align: center;
+	background-image: url("./image/rancidbannerbg.png");
+	background-repeat:repeat-x;
+	background-size: 100% 50px;
+           }
+
+.banner>img { height: 50px; }
+
+h1 {
+	font-family: Georgia;
+	font-size: 24pt;
+	font-weight: bold;
+	text-shadow: 3px 3px #999999;
+	text-align: center;
+       }
+
+section {
+	width:auto;
+	height:auto;
+	display: flex;
+	margin-left:22.5%;
+	margin-right:22.5%;
+	box-shadow:5px 5px 5px gray;
+           }
+
+article:nth-of-type(1) {
+		     background-color:#EEEEEE;
+		     width:70%;
+		   }
+
+article:nth-of-type(2) {
+		    background-color:#A2B964;
+		    width:30%;
+		   }
+
+.below {
+	background-image: url("./image/rottenlargebg.png");
+	background-repeat:repeat-x;
+	background-size: 100% 83px;
+         }
+
+.below>span {
+	      color: red;
+	      font-size:48pt;
+                  font-weight:bold;
+	     }
+
+.below>img { 
+	      size 83px;
+	      float: left; 
+	    }
+
+footer {
+	text-align: center;
+	margin-left: 22.5%;
+	margin-right: 22.5%;
+	background-color: #A2B964;
+	box-shadow: 5px 5px 5px gray;
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+	font-weight: bold;
+         }
+
+.quotebubble {
+	        border: 2px solid #CCCCCC;
+	        border-radius: 12px;
+	        font-size: 12pt;
+	        font-family: Georgia;
+	        background-color: #FFFFFF;
+	        margin-right: 5%;
+	        margin-left: 5%;
+	        padding-top: 2em;
+	        padding-bottom: 2em;
+	       }
+
+.quotebubble>img { 
+		  height: 100%
+		  margin-left: 1em;
+		  margin-right: 5px;
+		  margin-top: 1%;
+		  margin-bottom: 2%;
+		  float: left;
+		 }
+
+.publication {
+	     font-style: italic;
+	    }
+
+p { 
+    font-size: 13pt;
+   }
+
+p>img {
+           margin-top: 5px;
+           margin-left: 5%;
+           float: left;
+           margin-right: 5px;
+          }
+
+dl {
+     margin-right: 15px;
+     margin-left: 15px;
+    }
+
+dt { font-weight: bold; }
+
+dd { 
+      font-family: Arial;
+      font-size: 12pt;
+      margin-bottom: 15px;
+     }
+
+.overview>img { 
+	       max-width: 100%;
+	       width: 600px;
+	      }
+
+.w3c {
+         text-align: right;
+       }
+
+.w3c>img {
+	  float: right;
+	 }
+
